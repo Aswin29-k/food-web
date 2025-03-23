@@ -1,0 +1,93 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+          <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        
+        <div class="one">
+            <h1 class="four">FOOD MENU</h1>
+            <select id="two">
+                <option>sunday</option>
+                <option>monday</option>
+                <option>tuesday</option>
+                <option>wednesday</option>
+                <option>thursday</option>
+                <option>friday</option>
+                <option>saturday</option>
+            </select>
+            <div id="seven"> food space</div>
+            
+            <button class="button" onclick="show()"> food</button>
+        
+    </body>
+    <script>
+let button=document.querySelector('button')
+let space=document.getElementById('seven')
+//button.addEventListener("click",show)
+function show(){
+    const input=document.getElementById("two")
+    let food=input.options[input.selectedIndex].value
+    console.log(food)
+    lunch=''
+    diiner=''
+    breakfast=''
+    switch (food) {
+        case 'sunday':
+            breakfast='idly,chuteney,sambar'
+            lunch='sambarrice,potato ,buttermilk'
+            dinner='chapptai,kurma'
+        break;
+            
+         case 'sunday':
+             breakfast='idly,chuteney,sambar'
+             lunch='sambarrice,potato ,buttermilk'
+             dinner='chapptai,kurma'
+                
+        break;
+        case 'sunday':
+            breakfast='idly,chuteney,sambar'
+            lunch='sambarrice,potato ,buttermilk'
+            dinner='chapptai,kurma'
+            
+             break; 
+         case 'sunday':
+            breakfast='idly,chuteney,sambar'
+            lunch='sambarrice,potato ,buttermilk'
+            dinner='chapptai,kurma'
+         
+            break;
+         case 'sunday':
+            breakfast='idly,chuteney,sambar'
+            lunch='sambarrice,potato ,buttermilk'
+            dinner='chapptai,kurma'
+            
+             break;
+        
+     
+        case 'sunday':
+            breakfast='idly,chuteney,sambar'
+            lunch='sambarrice,potato ,buttermilk'
+            dinner='chapptai,kurma'
+                
+            break;
+        case 'sunday':
+             breakfast='idly,chuteney,sambar'
+             lunch='sambarrice,potato ,buttermilk'
+             dinner='chapptai,kurma'
+             break;
+        default:
+               break;
+        }
+        space.textContent=breakfast,lunch,dinner
+
+
+}
+
+    </script>
+
+
+
+
+</html>

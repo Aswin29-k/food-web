@@ -1,0 +1,72 @@
+.formname{
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 500px;
+    
+    
+
+}
+.formname1{
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 30px;
+    margin-top: 600px;
+
+    justify-content:end;
+    
+    
+
+}
+
+.login{
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: lawngreen;
+    position: relative;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 30px;
+
+}
+.input{
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+}
+.h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login1{
+    width: 250px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 25px;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: fantasy;
+    background-color: black;
+}
+.icon{
+width: 50px;
+height: 50px;
+display: flex;
+flex-direction: row;
+position:relative;
+left: 250px;
+top: 50px;
+gap: 50px;
+}
+body{
+    background-image: url("https://media.istockphoto.com/id/1182393436/vector/fast-food-seamless-pattern-with-vector-line-icons-of-hamburger-pizza-hot-dog-beverage.jpg?s=612x612&w=0&k=20&c=jlj-n_CNsrd13tkHwC7MVo0cGUyyc8YP6wJQdCvMUGw= ");
+}

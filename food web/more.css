@@ -1,0 +1,75 @@
+.one{
+    width: 700px;
+    height: 600px;border-radius: 20px;
+    box-shadow: 30px,30px,black;
+    opacity: 50px;
+    border-color: darkgray;
+    border-width: 30px;
+    
+}
+body{
+    background-image: url( "  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShaBN3fNEqfbLM-GRWrhYs7dXzg7prqtfJig&s");
+}
+.h1{
+    font-family: fantasy;
+    font-size: 60px;
+    color:black;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.offer{
+    background: linear-gradient(rgb(143, 137, 137),rgb(30, 21, 21));
+    width: 700px;
+    height: 250px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 250px;
+}
+.h4{
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.offer{
+    background: linear-gradient(rgb(143, 137, 137),rgb(30, 21, 21));
+    width: 700px;
+    
+    height: 250px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 300px;
+    
+}
+.h4{
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.one1{
+    width: 700px;
+    height: 600px;border-radius: 20px;
+    box-shadow: 30px,30px,black;
+    opacity: 50px;
+    border-color: darkgray;
+    border-width: 30px;
+    position: relative;
+    left: 900px;
+    
+    bottom: 2500px;
+    
+}
+.offer1{
+    background: linear-gradient(rgb(143, 137, 137),rgb(30, 21, 21));
+    width: 700px;
+    
+    height: 250px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 2750px;
+    left: 900px;
+    
+}

@@ -1,0 +1,96 @@
+h1{
+    color: blue;
+}
+.one{
+    background: linear-gradient(blue,black);
+    width: 500px;
+    height: 500px;
+    border: 10px;
+    border-radius: 5px;
+    border-color: aqua;
+    border-style:solid ;
+
+    position: relative;
+    right: 50px;
+    left: 500px;
+
+
+}
+#two{
+    position: absolute;
+    width: 300px;
+    right: 500px;
+    left: 80px;
+    top: 300px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: gray;
+    color: brown;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+}
+body{
+    background:linear-gradient(green,yellow) ;
+}
+.four{
+    color: red;
+    position: relative;
+     left: 80px;
+     top: 200px;
+     right: 300px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 20PX;
+     font-weight: 300px;
+
+}
+#seven{
+    position:absolute;
+    top: 450px;
+    bottom: 400px;
+    left:110px;
+    right: 500px;
+    color: aqua;
+
+    
+}
+.button{
+    position: absolute;
+    top: 400px;
+    right: 200px;
+    width: 100px;
+    height: 40px;
+    border-radius: 2px;
+    border: 10px;
+    border-style: solid;
+    color: red;
+    background-color: blue;
+
+    
+
+}
+#seven :focus{
+    color: red;
+    
+
+}
+
+
+
